@@ -1,29 +1,3 @@
-
-
-
-require('./bootstrap');
-require('./welcome');
-
-
-
-
-window.Vue = require('vue');
-
-
-
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
-
-
-const app = new Vue({
-    el: '#app',
-});
-//--------------text animated----------------//
 import Typed from 'typed.js';
 const typed = new Typed('.typed', {
 	
@@ -41,6 +15,3 @@ const typed = new Typed('.typed', {
 	cursorChar: '|', // Caracter para el cursor
 	contentType: 'html', // 'html' o 'null' para texto sin formato
 });
-//--------------end text animated----------------//
-
-
